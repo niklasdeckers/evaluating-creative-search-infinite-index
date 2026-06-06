@@ -2,9 +2,9 @@
 
 ## Accessing the dataset
 
-Currently, the dataset is hosted here: [https://files.webis.de/data-in-progress/data-research/multimodality/topics-for-generative-models-review/index.html](https://files.webis.de/data-in-progress/data-research/multimodality/topics-for-generative-models-review/index.html) (will be moved to Zenodo)
+The dataset that belongs to this repository can be found on Zenodo: https://doi.org/10.5281/zenodo.20574978
 
-The file structure of the data.zip can be integrated with this repository.
+The file structure of the provided zip file can be integrated with this repository.
 
 To simply access the textual image descriptions (to form *interactive topics*), see the `[reddit|pexels|lexica]/doccano_*_single_image.jsonl` files.
 

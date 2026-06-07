@@ -11,10 +11,10 @@ from datasets import load_dataset
 # CONFIG
 # -----------------------------
 DATASET_PREFIX = "lexica"
-DATASET_PATH = "/mnt/ceph/storage/corpora/corpora-thirdparty/corpus-lexica-generated-images/data"
+DATASET_PATH = "vera365/lexica_dataset"  # from Huggingface
 OUTPUT_FILE = f"doccano_{DATASET_PREFIX}_closest_clip_match_by_comment.jsonl"
 SWAP_LOG_FILE = f"groundtruth_{DATASET_PREFIX}_closest_clip_match_by_comment.json"
-GAMMA_DOMAIN = "http://gammaweb09.medien.uni-weimar.de:8080"
+GAMMA_DOMAIN = "http://localhost:8080"
 SEED = 42
 
 IMAGE_INDEX_FILE = "faiss_image_index.index"

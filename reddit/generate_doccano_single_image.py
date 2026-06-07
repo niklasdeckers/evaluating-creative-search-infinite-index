@@ -6,7 +6,7 @@ DATASET_PREFIX = "reddit"
 META_DIR = "output/meta"
 COMMENTS_DIR = "output/comments"
 OUTPUT_FILE = f"doccano_{DATASET_PREFIX}_single_image.jsonl"
-BASE_URL = "http://gammaweb09.medien.uni-weimar.de:8080"
+BASE_URL = "http://localhost:8080"
 
 def load_jsonl(path):
     with open(path, "r", encoding="utf-8") as f:

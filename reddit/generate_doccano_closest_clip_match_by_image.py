@@ -13,7 +13,7 @@ META_DIR = "output/meta"
 COMMENTS_DIR = "output/comments"
 OUTPUT_FILE = f"doccano_{DATASET_PREFIX}_closest_clip_match_by_image.jsonl"
 SWAP_LOG_FILE = f"groundtruth_{DATASET_PREFIX}_closest_clip_match_by_image.json"
-GAMMA_DOMAIN = "http://gammaweb09.medien.uni-weimar.de:8080"
+GAMMA_DOMAIN = "http://localhost:8080"
 SEED = 42
 
 IMAGE_INDEX_FILE = "faiss_image_index.index"

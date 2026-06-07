@@ -22,7 +22,7 @@ The following steps should then be applied to create the provided dataset of r/c
 - Prepare the Doccano datasets (for the later annotation) using the `reddit/generate_doccano_*.py` scripts.
 
 For the Pexels dataset:
-- Download the [Pexels dataset](https://github.com/cj-mills/pexels-dataset) (768p source images) and unzip the images into a directory. The path needs to be specified at the top of the following Python scripts.
+- Download the [Pexels dataset](https://github.com/cj-mills/pexels-dataset) (768p source images) and unzip it into the directory `pexels/extracted` such that it contains the `pexels-prompts-pairs.json` file and the `images` directory.
 - Build an index of text and image embeddings for the nearest neighbor search using the `pexels/build_index.py` script.
 - Prepare the Doccano datasets (for the later annotation) using the `pexels/generate_doccano_*.py` scripts.
 

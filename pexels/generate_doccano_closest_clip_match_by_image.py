@@ -10,11 +10,11 @@ from tqdm import tqdm
 # CONFIG
 # -----------------------------
 DATASET_PREFIX = "pexels"
-PROMPTS_JSON_PATH = "/var/tmp/deckersn/pexels/pexels-110k-768p-min-jpg/pexels-prompts-pairs.json"
-IMAGE_DIR = "/var/tmp/deckersn/pexels/pexels-110k-768p-min-jpg/images"
+PROMPTS_JSON_PATH = "./extracted/pexels-prompts-pairs.json"
+IMAGE_DIR = "./extracted/images"
 OUTPUT_FILE = f"doccano_{DATASET_PREFIX}_closest_clip_match_by_image.jsonl"
 SWAP_LOG_FILE = f"groundtruth_{DATASET_PREFIX}_closest_clip_match_by_image.json"
-GAMMA_DOMAIN = "http://gammaweb09.medien.uni-weimar.de:8080"
+GAMMA_DOMAIN = "http://localhost:8080"
 SEED = 42
 
 IMAGE_INDEX_FILE = "faiss_image_index.index"

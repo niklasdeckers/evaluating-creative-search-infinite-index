@@ -13,8 +13,8 @@ from pathlib import Path
 # -----------------------------
 # CONFIG
 # -----------------------------
-IMAGE_DIR = "/var/tmp/deckersn/pexels/pexels-110k-768p-min-jpg/images"
-PROMPTS_JSON_PATH = "/var/tmp/deckersn/pexels/pexels-110k-768p-min-jpg/pexels-prompts-pairs.json"
+IMAGE_DIR = "./extracted/images"
+PROMPTS_JSON_PATH = "./extracted/pexels-prompts-pairs.json"
 
 IMAGE_INDEX_FILE = "faiss_image_index.index"
 TEXT_INDEX_FILE = "faiss_text_index.index"

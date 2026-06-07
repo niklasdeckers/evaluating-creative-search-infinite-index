@@ -13,8 +13,8 @@ from pathlib import Path
 # -----------------------------
 # CONFIG
 # -----------------------------
-DATASET_PATH = "/mnt/ceph/storage/corpora/corpora-thirdparty/corpus-lexica-generated-images/data"
-IMAGE_OUT_DIR = "/var/tmp/deckersn/lexica/images"
+DATASET_PATH = "vera365/lexica_dataset"  # from Huggingface
+IMAGE_OUT_DIR = "./extracted/images"
 
 IMAGE_INDEX_FILE = "faiss_image_index.index"
 TEXT_INDEX_FILE = "faiss_text_index.index"
